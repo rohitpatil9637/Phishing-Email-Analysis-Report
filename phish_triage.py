@@ -3,8 +3,6 @@
 phish_triage.py - first-look triage of a suspicious .eml file.
 Read-only: it parses the file and NEVER opens links or attachments.
 
-Usage: python3 phish_triage.py sample.eml
-Writes: sample_iocs.csv  (links, IPs, attachment hashes)
 """
 import csv
 import email
